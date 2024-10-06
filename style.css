@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e8eff0;
+}
+
+.white_bg{
+    background-color: #e8eff0;
+}
+
+/* .container{
+    margin-top: 20px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+} */
+
+.product_box {
+    border: 1px solid lightgray;
+}
+
+.product_box--img{
+    margin: 10px;
+    /* centering */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product_box--info{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 0px 10px 0px;
+}
+
+
+.product_box--info__center{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px dashed lightgray;
+    padding-right: 20px;
+}
+
+.product_box--info__center:last-child{
+    border-right: none;
+}
+
+.row{
+    border-top: 2px dashed lightgray;
+}
+
+.row:first-child{
+    border-top: none;
+}
+
+.col-md-4:first-child{
+    padding-left: 0px;
+    padding-right: 20px;
+}
+
+.col-md-4{
+    border-right: 2px dashed lightgray;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-md-4:last-child{
+    border-right: none;
+    padding-right: 0px;
+    padding-left: 20px;
+}
+
+.deal_time {
+    margin: 10px 0px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom-btn-green {
+    background: Linear-gradient(#28a745, #a8cc59); 
+    border-color: #28a745; 
+    color: white; 
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.custom-btn-green:hover {
+    background: linear-gradient(#218838, #8cbf4f); 
+}
+
+.deal_time--time_left{
+    font-size: 12px;
+}
+
+#about_our_deal_title{
+    margin: 10px 5px 10px;
+}
+
+.twitter_buzz > div {
+    border-bottom: 2px dashed lightgray; /* Apply border to child divs */
+}
+
+.twitter_buzz > div:last-child {
+    border-bottom: none; /* Remove border for the last child div */
+}
+
+.twitter_buzz{
+    display: flex;
+
+    /* make the two divs stack vertically */
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#twitter_buzz_title{
+    margin: 10px 5px 10px;
+}
+
+.twitter_buzz--button{
+    margin-bottom: 10px;
+
+}
+
+.twitter_buzz--info{
+    margin-bottom: 10px;
+}
+
+.custom-btn-grey {
+    background: Linear-gradient(#6c757d, #adb5bd); 
+    border-color: #6c757d; 
+    color: white; 
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.custom-btn-grey:hover {
+    background: linear-gradient(#5a6268, #91989f); 
+}
+
+#other_pages_title{
+    margin: 10px 5px 10px;
+}
+
+
+.other_pages {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.page_item{
+    border-bottom: 2px dashed lightgray; /* Apply border to child divs */
+    color: green;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px 10px; / */
+}
+
+footer{
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    /* center */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.deals .col-md-4 h5{
+    padding: 20px 0px;
+}
+
+.deals.row{
+    border-top: 2px dashed lightgray;
+}
+
+.amazing_deal--details{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 40px
+}
+
+#discount_amazing_deal{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+.amazing_deal_details_card{
+    border: 1px solid lightgray;
+    
+}
+
+#buy_deal{
+    /* make the button bigger */
+    padding: 10px 10px;
+    font-size: 18pt;
+    width: 100%
+}
+
+.social_button{
+    width: 100px; height: 35px; display:flex; justify-content: space-around; border-radius: 5px;
+    align-content: center;
+}
+
+.amazing_deal{
+    /* padding-top: 30px; */
+    padding-bottom: 30px;
+}
+
+.amazing_logo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#logo_dealer{
+    font-size: 60pt;
+}
+
+#navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.nav_opt{
+    border-right: 2px dashed black;
+    padding-right: 20px;
+}
+
+.nav_opt:last-child{
+    border-right: none;
+}   
+
+#letter{
+    /* link background to img */
+    background-image: url('https://img.freepik.com/premium-vector/airmail-seamless-pattern-with-diagonal-blue-red-stripes-air-mail-classic-retro-pattern-vector-illustration-white-background_192280-1181.jpg');
+    background-repeat: repeat;
+    width: 100%;
+    height: 160px;
+    display: flex;
+    align-content: end;
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+#inside_letter{
+    width: 100%;
+    height: 130px;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+}
+
+#subscribe_button{
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+#subscribe_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#input_email{
+    /* stretch the length */
+    width: 75%;
+
+}
