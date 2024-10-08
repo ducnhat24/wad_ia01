@@ -11,7 +11,7 @@
     <title>IA01 - 22120252</title>
 </head>
 <body>
-    <div class="container" style="margin-bottom: 50px; background-color: #e8eff0;">
+    <div class="container" id="container1">
         <div class="row">
             <div class="col-md-6">
                 <div id="logo_dealer">
@@ -32,15 +32,15 @@
                         <b>Submit Your Deal</b>
                     </div>
                     <div class="nav_opt">
-                        <img src="/mail_icon.png" alt="mail icon" style="max-width: 32px;">
+                        <img src="/mail_icon.png" alt="mail icon" id="mail_icon">
                     </div>
                 </div>
             </div>
 
             <div class="col-md-6">
                 <div id="letter">
-                    <div id="inside_letter" style="font-size: 14pt;">
-                        <p style="margin-bottom: 10px;">
+                    <div id="inside_letter">
+                        <p>
                             <b>Sign up for free to get deals directly to your mailbox</b>
                         </p>
                         <div id="subscribe_div">
@@ -56,13 +56,13 @@
     </div>
 
     <div class="white_bg">
-        <div class="container bg-white" style="padding: 50px 50px 50px">
+        <div class="container bg-white" id="container2">
             <div class="row amazing_deal">
                 <div class="col-md-8">
                     <div class="amazing_logo">
                         <h1>This is one very amazing deal</h1>
                     </div>
-                    <img src="/orange_pic.jpg" class="img-fluid" alt="orange pic" style="padding-bottom:  20px; min-width: 100%">
+                    <img src="/orange_pic.jpg" class="img-fluid" id="amazing_deal_image" alt="orange pic">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                         et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -72,50 +72,50 @@
 
                 <div class="col-md-4 amazing_deal--details">
                     <div class="amazing_deal_details_card"-->
-                        <div style="color: gray; font-size: 16pt; padding: 20px 30px 10px;">
+                        <div id="amazing_deal_details--anounce">
                             <b>This deal will end in:</b>
                         </div>
 
-                        <div style="font-size: 15pt; border-top: 4px double gray; border-bottom: 4px double gray; padding: 20px 10px">
+                        <div id="amazing_deal_details--time">
                             <b>6 days 1 hrs 52 min 51 sec</b>
                         </div>
 
                         <div>
-                            <div style="color: gray; font-size: x-large; padding: 10px 0px 0px">
+                            <div id="amazing_deal_details--discount">
                                 <b>Discount</b>
                             </div>
-                            <div style="font-size: 80pt;">
+                            <div id="amazing_deal_details--percentage">
                                 <b>43%</b>
                             </div>
                         </div>
 
-                        <div id = "discount_amazing_deal" style="border-top: 2px dashed gray; border-bottom: 2px dashed gray; padding: 15px 15px 10px">
+                        <div id = "discount_amazing_deal">
                             <div >
-                                <div style="color: grey; font-size: 20pt;">
+                                <div class="discount_amazing_deal--text">
                                     <b>Deal value</b>
                                 </div>
                                 
-                                <div style="font-size: 25pt;">
+                                <div class="discount_amazing_deal--value">
                                     <b>$47</b>
                                 </div>
                             </div>
 
                             <div>
-                                <div style="color: grey; font-size: 20pt;">
+                                <div class="discount_amazing_deal--text">
                                     <b>You save</b>
                                 </div>
                                 
-                                <div style="font-size: 25pt;">
+                                <div class="discount_amazing_deal--value">
                                     <b>$20</b>
                                 </div>
                             </div>
                         </div>
 
-                        <div style="display:flex; justify-content: space-around; padding: 25px 30px 20px;">
+                        <div id="social_button" >
                             <div>
-                                <button class="social_button" style="display:flex; align-content: center;">
+                                <button class="social_button" >
                                     <!-- set the img small -->
-                                    <img src="/twitter_logo.png" class="img-fluid" alt="twitter-logo" style="max-width: 40px; max-height: 25px;">
+                                    <img src="/twitter_logo.png" class="img-fluid social_button_image" alt="twitter-logo" >
                                     <div>
                                         Tweet
                                     </div>
@@ -124,7 +124,7 @@
 
                             <div>
                                 <button class="social_button">
-                                    <img src="/facebook_logo.png" class="img-fluid" alt="twitter-logo" style="max-width: 40px; max-height: 25px;">
+                                    <img src="/facebook_logo.png" class="img-fluid social_button_image" alt="twitter-logo">
 
                                     <div>
                                         Like
@@ -136,8 +136,8 @@
 
                     </div>
 
-                    <div style="display: flex; justify-content: center;">
-                        <button class = "custom-btn-green" id = "buy_deal" style="border-radius: 15px; margin: 20px ;">
+                    <div id="amazing_deal--button">
+                        <button class = "custom-btn-green" id = "buy_deal">
                             Buy this deal - 27$
                         </button>
                     </div>
@@ -153,7 +153,7 @@
                     <h5>Lorem Ipsum  Dolor Deal</h5>
                     <div class="product_box">
                         <div class="product_box--img">
-                            <img src="/orange_pic.jpg" class="img-fluid" alt="Product image" style = "margin: 10dp;">
+                            <img src="/orange_pic.jpg" class="img-fluid product_image" alt="Product image">
                         </div>
                         <div class="product_box--info">
                             <div class="product_box--info__center">
@@ -185,7 +185,7 @@
                     <h5>Lorem Ipsum  Dolor Deal</h5>
                     <div class="product_box">
                         <div class="product_box--img">
-                            <img src="/orange_pic.jpg" class="img-fluid" alt="Product image" style = "margin: 10dp;">
+                            <img src="/orange_pic.jpg" class="img-fluid product_image" alt="Product image">
                         </div>
                         <div class="product_box--info">
                             <div class="product_box--info__center">
@@ -218,7 +218,7 @@
                     <h5>Lorem Ipsum  Dolor Deal</h5>
                     <div class="product_box">
                         <div class="product_box--img">
-                            <img src="/orange_pic.jpg" class="img-fluid" alt="Product image" style = "margin: 10dp;">
+                            <img src="/orange_pic.jpg" class="img-fluid product_image" alt="Product image">
                         </div>
                         <div class="product_box--info">
                             <div class="product_box--info__center">
