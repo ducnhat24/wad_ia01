@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -197,7 +199,7 @@ footer{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-
+    border-top: 2px dashed gray; border-bottom: 2px dashed gray; padding: 15px 15px 10px
 }
 
 .amazing_deal_details_card{
@@ -209,7 +211,8 @@ footer{
     /* make the button bigger */
     padding: 10px 10px;
     font-size: 18pt;
-    width: 100%
+    width: 100%;
+    border-radius: 15px; margin: 20px ;
 }
 
 .social_button{
@@ -282,4 +285,72 @@ footer{
     /* stretch the length */
     width: 75%;
 
+}
+
+#container1{
+    margin-bottom: 50px; background-color: #e8eff0;
+}
+
+#mail_icon{
+    max-width: 32px;
+}
+
+#inside_letter{
+    font-size: 14pt;
+}
+
+#inside_letter>p{
+    margin-bottom: 10px;
+}
+
+#container2{
+    padding:50px;
+}
+
+#amazing_deal_image{
+    padding-bottom:  20px; min-width: 100%;
+}
+
+#amazing_deal_details--anounce{
+    color: gray; font-size: 16pt; padding: 20px 30px 10px;
+}
+
+#amazing_deal_details--time{
+    font-size: 15pt; border-top: 4px double gray; border-bottom: 4px double gray; padding: 20px 10px;
+}
+
+#amazing_deal_details--discount{
+    color: gray; font-size: x-large; padding: 10px 0px 0px;
+}
+
+#amazing_deal_details--percentage{
+    font-size: 80pt;
+}
+
+.discount_amazing_deal--text{
+    color: grey; font-size: 20pt;
+}
+
+.discount_amazing_deal--value{
+    font-size: 35pt
+}
+
+#social_button{
+    display:flex; justify-content: space-around; padding: 25px 30px 20px;
+}
+
+.social_button_image{
+    max-width: 40px; max-height: 25px;
+}
+
+.social_button{
+    display:flex; align-content: center;
+}
+
+#amazing_deal--button{
+    display: flex; justify-content: center;
+}
+
+.product_image{
+    margin: 10dp;
 }
